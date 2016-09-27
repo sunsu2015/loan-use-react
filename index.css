@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+}
+body,ul,li{
+    margin:0;
+    padding:0;
+}
+ul.header{
+    width:100%;
+    height:32px;
+    line-height:32px;
+}
+li.nav{
+    float:left;
+    width:25%;
+    list-style-type: none;
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+}
+.nav a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+.nav .active{
+     color:red;
+ }
+.required{
+    color:red;
+}
+div>ul>li{
+    width:50%;
+    display: inline-block;
+}
+div>ul>li .label{
+    width:20%;
+    display: inline-block;
+    text-align: right;
+    margin:20px 0;
+}
+div>ul>li .input{
+    width:60%;
+    display: inline-block;
+    height:32px;
+}
+div>ul>li .input input{
+    width:95%;
+    margin-right: 3%;
+    margin-left: 2%;
+    height:26px;
+    font-size:16px;
+}
+div>ul>li .input select{
+    width:95%;
+    margin-right: 3%;
+    margin-left: 2%;
+    height:32px;
+    font-size:16px;
+}
+.submit{
+    width:100%;
+    height: 42px;
+    position: fixed;
+    bottom:0;
+    margin-bottom:20px;
+}
+.submit .submit_btn{
+    width:10%;
+    margin:auto;
+    padding:10px;
+    background-color: #00a0e9;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
