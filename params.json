@@ -1,0 +1,6 @@
+{
+  "name": "Loan-use-react",
+  "tagline": "练习使用React,React-Router,Redux",
+  "body": "练习使用React,React-Router,Redux\r\n实现了一个简单的多tab页表单录入页面，功能包括表单数据校验，当前tab页的数据联动等\r\ndemo见",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
